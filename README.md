@@ -1,2 +1,2 @@
 # autoconf.sh
-Autoconf.sh - the lazy mans arch installer
+Autoconf.sh - the lazy mans bootstrapper for Arch Linux
