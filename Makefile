@@ -1,4 +1,4 @@
-.PHONY: build test-release release install clean
+.PHONY: build test-release release install clean docs
 
 build:
 	python -m build
@@ -13,4 +13,7 @@ install:
 	python3 setup.py install --user
 
 clean:
-	rm -rf ./src/autoconfsh/__pycache__ ./src/autoconfsh.egg-info/ ./build/ ./dist/
+	rm -rf ./src/autoconfsh/__pycache__ ./src/autoconfsh.egg-info/ ./build/ ./dist/ ./docs/_build/
+
+docs:
+	cd docs && make html
