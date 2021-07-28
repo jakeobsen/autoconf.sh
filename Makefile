@@ -3,10 +3,10 @@
 build:
 	python -m build
 
-test-release:
+test-release: build
 	python3 -m twine upload --repository testpypi -u "__token__" -p "${PYPI_TOKEN_TEST}" dist/*
 
-release:
+release: test-release
 	python3 -m twine upload -u "__token__" -p "${PYPI_TOKEN}" dist/*
 
 install:
