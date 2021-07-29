@@ -1,17 +1,11 @@
-Autoconf.sh - the lazy mans bootstrapper for Arch Linux
-=======================================================
+.. mdinclude:: ../README.md
 
-.. automodule:: autoconfsh.cli
-   :members:
+
+Modules
+=======
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Available pages
+   :glob:
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   *

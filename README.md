@@ -1,5 +1,6 @@
 # autoconf.sh
-Autoconf.sh - the lazy mans bootstrapper for Arch Linux
+
+autoconf.sh is a python bootstrapping and configuration system for Arch Linux.
 
 # Installation
 
@@ -12,3 +13,7 @@ You may install this package using pip:
 You can then run the program by executing:
 
 `autoconf.sh`
+
+# Documentation
+
+You can generate the documentation by running `make docs`
